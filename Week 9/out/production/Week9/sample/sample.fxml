@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="all" layoutX="14.0" layoutY="-1.0" mnemonicParsing="false" onAction="#printAll" text="View All" />
+      <Button fx:id="first" layoutX="83.0" layoutY="-1.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#printFreshmen" prefHeight="31.0" prefWidth="116.0" text="View Freshmen" />
+      <Button fx:id="second" layoutX="199.0" layoutY="-1.0" mnemonicParsing="false" onAction="#printSophomores" text="View Sophomores" />
+      <Button fx:id="third" layoutX="339.0" layoutY="-1.0" mnemonicParsing="false" onAction="#printJuniors" text="View Juniors" />
+      <Button fx:id="fourth" layoutX="441.0" layoutY="-1.0" mnemonicParsing="false" onAction="#printSeniors" text="View Seniors" />
+      <ListView fx:id="sceneList" layoutX="16.0" layoutY="41.0" prefHeight="345.0" prefWidth="1000.0" />
+   </children>
+</Pane>
